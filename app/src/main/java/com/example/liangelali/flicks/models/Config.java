@@ -35,7 +35,9 @@ public class Config {
         return String.format("%s%s%s", imageBaseUrl, size, path); // concatenate all three
     }
 
-
+    public String getBackdropSize() {
+        return backdropSize;
+    }
 
     public String getImageBaseUrl() {
         return imageBaseUrl;
